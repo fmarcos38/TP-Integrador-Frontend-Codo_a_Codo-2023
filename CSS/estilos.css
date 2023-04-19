@@ -58,34 +58,49 @@
 
 /* --MAIN------------------------------------------------------------------------------------- */
 .div-imagen-fondo{
-    background-image: url("../Imagenes/ba1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Imagenes/ba1.jpg");    
     max-width: 100%;
     height: 100vh;
 }
-.imgConf{
-    text-align: center;
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: absolute;
-    filter: brightness(0.5);
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    width: 100%;
-}
 .textoH1{
-    color: white;
+    color: rgb(243, 236, 236);
     text-align: right;
     padding-top: 400px;
     padding-right: 175px;
 }
 .textoH4{
-    color: white;
+    color: rgb(210, 203, 203);
     text-align: right;
     padding-right: 175px;
 }
+.botones{
+    display: flex;
+    justify-content: end;
+    padding-right: 175px;
+}
 
+.contTextoConoceLosOradores{
+    text-align: center;
+}
+
+.contOradores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-left: 20px;
+}
+.col-sm-12{
+    background-color: aqua;
+} 
+.col-lg-4{
+    background-color: blueviolet;
+}
+.imgSteve{
+    width: 280px;    
+    height: 261px;
+}
 /* ---FIN MAI--------------------------------------------------------------------------------- */
 @media screen and (max-width: 1125px) and (min-width: 994px){
     .itemConfBsAs, .itemLaConferencia, .itemOradores, .itemFecha, .itemCoviertete, .itemComprarTicket{
