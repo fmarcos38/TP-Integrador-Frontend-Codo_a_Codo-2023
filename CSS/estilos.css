@@ -91,15 +91,42 @@
 .card{
     margin-left: 20px;
 }
-.col-sm-12{
-    background-color: aqua;
-} 
-.col-lg-4{
-    background-color: blueviolet;
+.oradorestarjeta{
+    height: 100%;
 }
 .imgSteve{
     width: 280px;    
     height: 261px;
+}
+
+
+.oradores{
+    display: flex;
+    max-height: 48vh;
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+}
+.tarjetero{
+    display: flex;
+    justify-content: center !important;
+    margin: 0;
+    width: 60%;
+}
+.oradorestarjeta{
+    height: 100%;
+}
+.chiquito{
+    display: flex;
+    font-size: 8px;
+    padding: 5px;
+    margin: 0px 10px;
+    
+}
+.grande{
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px 10px;
 }
 /* ---FIN MAI--------------------------------------------------------------------------------- */
 @media screen and (max-width: 1125px) and (min-width: 994px){
@@ -128,7 +155,5 @@
     .btnHambur{
         margin-right: 0;
     }
-    .iconHambur {
-        
-    }
+    
 }
