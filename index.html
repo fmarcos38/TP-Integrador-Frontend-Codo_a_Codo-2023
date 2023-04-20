@@ -43,13 +43,13 @@
                             <a class="nav-link itemOradores" aria-current="page" href="#oradores">Los oradores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link itemFecha" aria-current="page" href="#lugarYfecha">El lugar y fecha</a>
+                            <a class="nav-link itemFecha" aria-current="page" href="#luarYfecha">Lugar y fecha</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link itemCoviertete" aria-current="page" href="#">Convíertet en orador</a>
+                            <a class="nav-link itemCoviertete" aria-current="page" href="#convierteteOrador">Convíertete en orador</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link itemComprarTicket" href="#">Comprar tickets</a>
+                            <a class="nav-link itemComprarTicket" href="#comprarTicketsBtn">Comprar tickets</a>
                         </li>
                     </ul>
                 </div>
@@ -87,7 +87,7 @@
                     <div class="col-sm"></div>
                     <div class="col-sm botones">
                         <button class="btn btn-outline-light " id="serOrador">Quiero ser orador</button> 
-                        <button class="btn btn-success" id="comprarTicketsBtn">Comprar ticket</button>                        
+                        <button class="btn btn-success btnComprar" id="comprarTicketsBtn">Comprar ticket</button>                        
                     </div>
                 </div>
             </div>
@@ -147,13 +147,13 @@
             </div>
 
             <!-- Lugar y fecha -->
-            <div class="card mb-3" >
+            <div class="card mb-3" id="luarYfecha">
                 <div class="row g-0">
-                    <div class="col-md-6">
+                    <div class="col-md-6 divIzq">
                         <img src="/Imagenes/honolulu.jpg" class="img-fluid rounded-start" alt="Playita" >
                     </div>
 
-                    <div class="col-md-6 " style="background-color: #363A40; color: white;"> 
+                    <div class="col-md-6 divDer" style="background-color: #363A40; color: white;"> 
                         <h5 class="fechaTitulo">Bs As Octubre</h5>
                         <p class="fechaTexto">
                             Buenos Aires es la provincia y localidad más grande del estado de Argentina, 
@@ -162,11 +162,48 @@
                             sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado
                             consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).
                         </p>
-                        <buton class="btn btn-secondary">Conocé más</buton>
+                        <buton class="btn btn-secondary btnConoce">Conocé más</buton>
                     </div>
                 </div>
             </div>
 
+            <!--Conviertete en orador  -->
+            <div class="container-fluid" id="convierteteOrador">
+                <div class="convEnOrador">
+                    <span>Conviertete en un</span>
+                    <h2>Orador</h2>
+                    <h6>Anotate para dar una charla. Cuentanos de quieres hablar</h6>
+
+                    <div class="contForm">
+                        <form class="form">
+                            
+                            <!-- <div class="mb-3 contNombreApe">
+                                <input type="email" class="form-control inputNombre" id="apellido" placeholder="Nombre">     
+                                <input type="email" class="form-control inputApellido" id="apellido" placeholder="Apellido">                         
+                            </div>
+                            
+                            
+                            <div class="mb-3 contTextTarea">
+                                <textarea class="form-control"  id="temaCharla"></textarea>
+                                <label for="floatingTextarea2">Comments</label>
+                            </div>  -->
+
+
+                            <div class="mb-3 contNombreApe">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button> 
+                        </form>
+                    </div>
+                </div>
+
+            </div>
 
         </main>
         

@@ -78,7 +78,9 @@
     justify-content: end;
     padding-right: 175px;
 }
-
+.btnComprar{
+    background-color: rgba(19, 179, 19, 0.864);
+}
 /* oradores */
 .contTextoConoceLosOradores{
     text-align: center;
@@ -107,9 +109,48 @@
     margin-right: 7px;
 }
 
+
 /* lugar y fecha */
 
-/* ---FIN MAI--------------------------------------------------------------------------------- */
+.fechaTitulo, .fechaTexto{
+    padding-left: 13px;
+}
+.btnConoce{
+    margin-left: 13px;
+}
+
+/* Conv en orador */
+.convEnOrador{
+    text-align: center;
+}
+
+/* form */
+.contForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form{
+    width: 50%;
+}
+.contNombreApe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputNombre, .inputApellido{
+    width: 40%;
+}
+.inputNombre{
+    margin-right: 25px;
+}
+.contTextTarea{
+    /* width: 60%;
+    margin-left: 79px; */
+    background-color: blue;
+}
+/* ---FIN MAIN--------------------------------------------------------------------------------- */
 
 
 
