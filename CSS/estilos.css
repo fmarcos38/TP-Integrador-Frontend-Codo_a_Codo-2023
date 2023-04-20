@@ -108,18 +108,7 @@
 }
 
 /* lugar y fecha */
-.contFechaYlugar{
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contIzq{
-    background-color: blue;
-}
-.contDer{
-    background-color: red;
-}
+
 /* ---FIN MAI--------------------------------------------------------------------------------- */
 
 
