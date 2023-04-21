@@ -54,6 +54,35 @@
     color: red;
     font-size: 50px;
 }
+
+@media screen and (max-width: 1125px) and (min-width: 994px){
+    .itemConfBsAs, .itemLaConferencia, .itemOradores, .itemFecha, .itemCoviertete, .itemComprarTicket{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 620px){
+    .logo{
+        margin-left: 0;        
+    }
+    .contConfBsAs{
+        width: 50%;
+    }
+    .itemConfBsAs{
+        font-size: 1rem;
+    }
+    .iconHambur{
+        background-color: rgb(239, 83, 83);
+        size: 1rem;
+    }
+    .imgConf{
+        width: 100%;
+        height: 50vh;        
+    }
+    .btnHambur{
+        margin-right: 0;
+    }
+    
+}
 /* ----Fin header------------ */
 
 /* --MAIN------------------------------------------------------------------------------------- */
@@ -66,21 +95,83 @@
     color: rgb(243, 236, 236);
     text-align: right;
     padding-top: 400px;
-    padding-right: 175px;
+    padding-right: 8rem;
 }
 .textoH4{
     color: rgb(210, 203, 203);
     text-align: right;
-    padding-right: 175px;
+    padding-right: 8rem;
 }
 .botones{
     display: flex;
     justify-content: end;
-    padding-right: 175px;
+    padding-right: 8.7rem;
 }
 .btnComprar{
     background-color: rgba(19, 179, 19, 0.864);
 }
+
+@media screen and (max-width:1200px){
+    .textoH1{
+        font-size: 25px;
+    }
+    .textoH4{
+        font-size: 17px;
+    }
+    .btnQOraConf, .btnComprar{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:959px){
+    .textoH1{
+        font-size: 20px;
+        padding-right: 4rem;        
+    }
+    .textoH4{
+        font-size: 15px;
+        padding-right: 4rem;   
+    }
+    .botones{
+        padding-right: 4.7rem;
+    }
+    .btnQOraConf, .btnComprar{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:720px){
+    .textoH1{
+        font-size: 20px;        
+        padding-right: 3rem;
+    }
+    .textoH4{
+        font-size: 15px;
+        padding-right: 3rem;
+    }
+    .botones{
+        padding-right: 3rem;        
+    }
+    .btnQOraConf, .btnComprar{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px) {   
+    .textoH1{        
+        width: 100%;
+        font-size: 15px;        
+        padding-right: 2rem;
+    }
+    .textoH4{
+        font-size: 13px;
+        padding-right: 2rem;
+    }
+    .botones{
+        padding-right: 100px;        
+    }
+    .btnQOraConf, .btnComprar{
+        font-size: 10px;
+    }
+}
+
 /* oradores */
 .contTextoConoceLosOradores{
     text-align: center;
@@ -109,9 +200,22 @@
     margin-right: 7px;
 }
 
+@media screen and (max-width: 500px){
+    .tarjetero{ 
+        width: 100%;        
+        margin-left: 1rem;
+    }
+}
 
 /* lugar y fecha */
-
+/* .divIzq img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    
+} */
 .fechaTitulo, .fechaTexto{
     padding-left: 13px;
 }
@@ -166,33 +270,12 @@
     font-size: 13px;
 }
 /* FIN FOOTER---------------------------------------------------------------------------------- */
-
-/* ---- */
-@media screen and (max-width: 1125px) and (min-width: 994px){
-    .itemConfBsAs, .itemLaConferencia, .itemOradores, .itemFecha, .itemCoviertete, .itemComprarTicket{
-        font-size: 15px;
-    }
-}
-@media screen and (max-width: 620px){
-    .logo{
-        margin-left: 0;        
-    }
-    .contConfBsAs{
-        width: 50%;
-    }
-    .itemConfBsAs{
-        font-size: 1rem;
-    }
-    .iconHambur{
-        background-color: rgb(239, 83, 83);
-        size: 1rem;
-    }
-    .imgConf{
+@media screen and (max-width: 500px){
+    .footerNav{
         width: 100%;
-        height: 50vh;        
+        height: 100%;  
+        justify-content:center;
+        
     }
-    .btnHambur{
-        margin-right: 0;
-    }
-    
 }
+/* ---- */
