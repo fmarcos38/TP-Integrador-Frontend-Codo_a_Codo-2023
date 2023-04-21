@@ -153,7 +153,19 @@
 }
 /* ---FIN MAIN--------------------------------------------------------------------------------- */
 
-
+/* FOOTER */
+.footerNav{
+    width: 90%;
+    height: 100%;
+    padding: 0 0 0 10rem;    
+    justify-content:space-around;
+    background-color:rgb(46, 76, 119);
+}
+.enlacesnav{
+    color: white !important;
+    font-size: 13px;
+}
+/* FIN FOOTER---------------------------------------------------------------------------------- */
 
 /* ---- */
 @media screen and (max-width: 1125px) and (min-width: 994px){
