@@ -139,16 +139,17 @@
     justify-content: center;
     align-items: center;
 }
-.inputNombre, .inputApellido{
-    width: 40%;
-}
 .inputNombre{
     margin-right: 25px;
 }
-.contTextTarea{
-    /* width: 60%;
-    margin-left: 79px; */
-    background-color: blue;
+.msjRecuerda{
+    text-align: start;
+    font-size: 13px;
+}
+.btnEnviar{
+    width: 100%;
+    background-color: rgb(116, 197, 35);
+    border: none;
 }
 /* ---FIN MAIN--------------------------------------------------------------------------------- */
 
