@@ -50,7 +50,9 @@
                         <a class="nav-link itemCoviertete" aria-current="page" href="#convierteteOrador">Convíertete en orador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link itemComprarTicket" href="#comprarTicketsBtn">Comprar tickets</a>
+                        <a class="nav-link">
+                            <button class="btn itemComprarTicket" onclick="irAFormulario()">Comprar tickets</button> 
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -79,14 +81,14 @@
                     </div>
                 </div>
                 <!-- btn carrusel -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
             </div>
     
             <!-- contenedor de textos y botones -->
@@ -114,8 +116,13 @@
                 <div class="col-sm"></div>
                 <div class="col-sm"></div>
                 <div class="col-sm botones">
-                    <button class="btn btn-outline-light btnQOraConf" id="serOrador">Quiero ser orador</button> 
-                    <button class="btn btn-success btnComprar" id="comprarTicketsBtn">Comprar ticket</button>                        
+                    <!-- btn Ser Orador -->
+                    <a href="#convierteteOrador">
+                        <button class="btn btn-outline-light btnQOraConf" id="serOrador">Quiero ser orador</button>
+                    </a>
+                    <!-- btn Comprar ticket -->
+                    <button class="btn btn-success btnComprar" onclick="irAFormulario()">Comprar ticket</button>
+                    <!-- <button  id="comprarTicketsBtn" onclick="irAFormulario()"></button> -->        
                 </div>
                 </div>
         </div>
@@ -247,7 +254,7 @@
                 </div>
             </div>
         </div>
-    </main>
+    </main>    
     
     <!-- Footer -->
     <footer>
@@ -279,6 +286,15 @@
         </nav>
     </footer>
 
+    <!-- script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- script dirige a form -->
+    <script>
+        function irAFormulario() {
+            window.location.href = "formComprarTicket.html";
+        }
+    </script>
+
 </body>
 </html>

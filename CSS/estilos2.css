@@ -254,7 +254,7 @@
 }
 .tarjetero{
     display: flex;
-    justify-content: center !important;
+    justify-content: center;
     margin: 0;
     width: 75%;
 }
@@ -273,15 +273,6 @@
     }
 }
 
-/* lugar y fecha */
-/* .divIzq img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    
-} */
 .fechaTitulo, .fechaTexto{
     padding-left: 13px;
 }
@@ -336,11 +327,13 @@
     font-size: 13px;
 }
 /* FIN FOOTER---------------------------------------------------------------------------------- */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     .footerNav{
         width: 100%;
-        height: 100%;  
+        height: auto;  
         justify-content:center;
+        padding: 0;
+        text-align: center; 
         
     }
 }
